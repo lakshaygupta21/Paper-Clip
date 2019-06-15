@@ -12,7 +12,7 @@ var PostRoutes=require("./routes/Posts");
 var indexRoutes=require("./routes/index");
 var flash =  require("connect-flash");
 
-mongoose.connect("mongodb+srv://Lakshay:<llgg@@47>@cluster0-5bkjd.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://LakshayGupta:12345678lakshay@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser:true});
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
 app.use(express.static(__dirname + "/public"));
