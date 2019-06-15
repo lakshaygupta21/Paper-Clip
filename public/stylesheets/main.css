@@ -1,0 +1,59 @@
+.thumbnail img{
+    width:100%;
+}
+.thumbnail{
+    padding:0;
+}
+
+.thumbnail .caption-full{
+    padding:9px;
+}
+
+#deleteForm{
+    display:inline;
+}
+#deleteComment{
+    display:inline;
+}
+.Landing{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition:all 5s;
+    background-attachment: fixed;
+   
+}
+
+.push { 
+    
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	padding: 12px 20px;
+    width: 180x;
+    
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	
+	border: 2px solid #5f5255;
+    box-shadow: 0 4px 0 #282425, 0 0 6px #282425, 1px 1px 0px #282425, -1px -1px 0px #282425, 0px 8px 10px rgba(0, 0, 0, .5);
+    
+}
+
+.push:visited{
+    color:white;
+}
+hr{
+    width:60%;
+    
+}
+
