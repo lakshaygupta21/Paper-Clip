@@ -8,7 +8,7 @@ var LocalStrategy = require("passport-local");
 var User = require("./models/users");
 var seedDB = require("./seeds");
 var commentRoutes=require("./routes/comments");
-var PostRoutes=require("./routes/Posts");
+var PostRoutes=require("./routes/posts");
 var indexRoutes=require("./routes/index");
 var flash =  require("connect-flash");
 
@@ -56,7 +56,7 @@ app.use(commentRoutes);
 app.use(PostRoutes);
 
 
-app.listen(process.env.PORT,process.env.IP,function()
+app.listen(3000,process.env.IP,function()
 {
    console.log("Paper Clip server has started!!!");
   
