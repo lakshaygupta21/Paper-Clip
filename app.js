@@ -12,7 +12,7 @@ var PostRoutes=require("./routes/posts");
 var indexRoutes=require("./routes/index");
 var flash =  require("connect-flash");
 
-mongoose.connect("mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority/paperclip",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority",{useNewUrlParser:true});
 //var mongodbUri ='mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority/paperclip';
 
 app.use(bodyParser.urlencoded({extended:true}));
@@ -44,7 +44,7 @@ app.use(commentRoutes);
 app.use(PostRoutes);
 
 
-app.listen(3000,process.env.IP,function()
+app.listen(process.env.PORT,process.env.IP,function()
 {
    console.log("Paper Clip server has started!!!");
   
