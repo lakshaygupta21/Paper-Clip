@@ -12,21 +12,9 @@ var PostRoutes=require("./routes/posts");
 var indexRoutes=require("./routes/index");
 var flash =  require("connect-flash");
 
-// mongoose.connect("mongodb://localhost/paper_clip",{useNewUrlParser:true});
-var mongodbUri ='mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority/paperclip';
-mongoose.connect(mongodbUri, {
-  useNewUrlParser: true,
-  auth: {
-    user: 'LakshayGupta',
-    password: '1234'
-  }
-})
-var conn = mongoose.connection;    
-conn.on('error', console.error.bind(console, 'connection error:'));  
- 
-conn.once('open', () =>{
- console.log('connected to adatabase')                       
-});
+mongoose.connect("mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority/paperclip",{useNewUrlParser:true});
+//var mongodbUri ='mongodb+srv://LakshayGupta:1234@paperclip-vhulb.mongodb.net/test?retryWrites=true&w=majority/paperclip';
+
 app.use(bodyParser.urlencoded({extended:true}));
 app.set("view engine","ejs");
 app.use(express.static(__dirname + "/public"));
@@ -56,7 +44,7 @@ app.use(commentRoutes);
 app.use(PostRoutes);
 
 
-app.listen(3000,process.env.IP,function()
+app.listen(process.env.PORT,process.env.IP,function()
 {
    console.log("Paper Clip server has started!!!");
   
