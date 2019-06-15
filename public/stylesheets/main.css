@@ -17,11 +17,11 @@
 }
 .Landing{
     transition:all 5s;
-    background-size:cover;
+    background-size:contain;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-   -o-background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+   -o-background-size: contain;
    background-repeat: no-repeat;
 
    
