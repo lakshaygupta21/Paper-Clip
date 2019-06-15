@@ -15,18 +15,17 @@
 #deleteComment{
     display:inline;
 }
-.Landing:before{
-        text-align:center;
-        background: no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover; 
-      }
-   
+.Landing{
+    transition:all 5s;
+    background-size:cover;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+   -o-background-size: cover;
+   background-repeat: no-repeat;
 
    
-
+}
 
 .push { 
     
