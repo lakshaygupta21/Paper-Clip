@@ -16,16 +16,16 @@
     </div>
         <div class="row text-center" style="display:flex; flex-wrap:wrap;">
 
-    <%posts.forEach(function(camps)
+    <%posts.forEach(function(post)
     {%>
         <div class="col-md-3 col-sm-6">
            <div class="thumbnail">
-                    <img src="<%= camps.image %>">
+                    <img src="<%= post.image %>">
                     <div class="caption">
-                            <%= camps.name %>
+                            <%= post.name %>
                         </div>
                         <p>
-                            <a href="/posts/<%= camps._id  %>" class="btn btn-success">More Info</a>
+                            <a href="/posts/<%= post._id  %>" class="btn btn-success">More Info</a>
                         </p>
                 </div>
        
