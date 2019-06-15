@@ -22,7 +22,7 @@ router.get("/posts",function(req,res)
         posts:allPosts,currentUser:req.user
     });
         }
-    });
+    }).sort({"_id":-1});
    
 });
 
