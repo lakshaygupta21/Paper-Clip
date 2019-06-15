@@ -7,7 +7,7 @@
                 <div class="caption-full">
                     
                     <h4><a href=""><%=post.name %></a></h4>
-                    <p><%=post.description %></p>
+                    <p><%-post.description %></p>
                    <em><p>Submitted By <%=post.author.username%></p></em> 
                   <% if(currentUser && post.author.id.equals(currentUser._id)){ %>
                     <a class="btn btn-warning" href="/posts/<%=post._id%>/edit">Edit</a>
