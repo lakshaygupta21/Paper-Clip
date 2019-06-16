@@ -21,7 +21,7 @@
     min-width:100%;
     min-height:100%;
     transition:all 5s;
-    background-size:100% 1920px;
+    background-size:100% 200%;
     background-position:center center;
 
     background-attachment: fixed;
