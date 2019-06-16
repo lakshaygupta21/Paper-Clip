@@ -16,17 +16,25 @@
     display:inline;
 }
 .Landing{
+    margin:0;
+    padding:0;
+    min-width:100%;
+    min-height:100%;
     transition:all 5s;
-    background-size:cover;
+    background-size:100%;
     
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-   -o-background-size: cover;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+   -o-background-size: 100%;
    background-repeat: no-repeat;
    
 
    
+}
+.landingHtml{
+    min-width:100%;
+    min-height:100%;
 }
 
 .push { 
@@ -43,7 +51,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
 	padding: 12px 20px;
     width: 30%;
-    
+    margin:auto;
 	
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -56,6 +64,7 @@ background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, F
 
 .push:visited{
     color:white;
+    text-decoration: none;
 }
 hr{
     width:60%;
