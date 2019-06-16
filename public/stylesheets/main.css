@@ -15,7 +15,7 @@
 #deleteComment{
     display:inline;
 }
-.Landing{
+/* .Landing{
     margin:0;
     padding:0;
     min-width:100%;
@@ -36,6 +36,17 @@
 .landingHtml{
     min-width:100%;
     min-height:100%;
+} */
+
+.landingHtml .Landing { 
+    background: no-repeat center center fixed;
+    background-size: cover; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin: 0;
+    background-attachment: fixed;
+    max-width: 100%;
 }
 
 .push { 
