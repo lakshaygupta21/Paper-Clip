@@ -20,10 +20,9 @@
     padding:0;
     height:100vh;
     width:100vw;
-    
+    transition:background-image 5s;
     background-size:cover;
     background-position:center center;
-
     background-attachment: fixed;
     /* -webkit-background-size:100%;
     -moz-background-size: 100%;
