@@ -21,12 +21,13 @@
     min-width:100%;
     min-height:100%;
     transition:all 5s;
-    background-size:cover;
-    
+    background-size:100%;
+    background-position:center center;
+
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-   -o-background-size: cover;
+    -webkit-background-size:100%;
+    -moz-background-size: 100%;
+   -o-background-size: 100%;
    background-repeat: no-repeat;
    
 
