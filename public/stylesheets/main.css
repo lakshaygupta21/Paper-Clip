@@ -46,7 +46,7 @@
     -o-background-size: cover;
     margin: 0;
     background-attachment: fixed;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 .push { 
