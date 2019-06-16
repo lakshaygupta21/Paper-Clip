@@ -18,6 +18,7 @@
 .Landing{
     transition:all 5s;
     background-size:cover;
+    
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
