@@ -5,7 +5,7 @@
             <div class="thumbnail">
                 <img class="img-responsive" src="<%= post.image %>" alt = "Image preview">
                 <div class="caption-full">
-                    <p class="pull-right"><%= post.created.toDateString() %></p>
+                    <h6 class="pull-right"><%= post.created.toDateString() %></h6>
                     <h4><a href=""><%=post.name %></a></h4>
                     <p><%-post.description %></p>
                    <em><p>Submitted By <%=post.author.username%></p></em> 
