@@ -16,7 +16,8 @@ var postSchema=new mongoose.Schema({
             type:mongoose.Schema.Types.ObjectId,
             ref:"Comment"
         }
-    ]
+    ],
+   created:{type:Date, default: Date.now}
 });
 var Post=mongoose.model("Post",postSchema);
 
